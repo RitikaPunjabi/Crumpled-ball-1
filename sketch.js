@@ -47,12 +47,11 @@ function draw() {
 function keyPressed(){
     if(keyCode===UP_ARROW){
 		Matter.Body.applyForce(paper1.body,paper1.body.position,{x:55,y:-55});
-		//paper1.velocity.y(-15);
-		//paper1.velocity.x(5);
-		//isStatic:true
-		//Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:85,y:-85});
+		
+	    
+		
 	}
 }
-//I tried different things but the ball is rolling away
+
 
 
